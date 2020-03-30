@@ -1,0 +1,54 @@
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="form1.css">
+    </head>
+    
+    <body>
+        <form action="connect.php" method="POST">
+        <fieldset >
+                <legend><h1><b>National Workshop on Web Technology</b></h1></legend>
+                <p>
+            First Name:
+            <input type="text" placeholder="Enter Name" name="firstname"><br>
+            Last Name:
+            <input type="text" placeholder="Enter Last Name" name="lastname"><br>
+            Email Id:
+            <input type="email" placeholder="Enter Email" name="email"><br>
+            Mobile no:
+			<input type="number" name="number" placeholder="Number" required><br>
+            Gender:<br><br>
+            Male:
+            <input type="radio" id="gender" name="gender">
+            Female:
+            <input type="radio" id="gender" name="gender"><br><br>
+            Country:
+            <select name="country">
+                <option value="India">India</option>
+                <option value="NAmerica">North America</option>
+                <option value="Afria">Africa</option>
+                <option value="Russia">Russia</option>
+              </select><br>
+            State:
+            <select name="state">
+                <option value="Gujarat">Gujarat</option>
+                <option value="Rajasthan">Rajasthan</option>
+                <option value="Maharashtra">Maharashtra</option>
+                <option value="Uttar Pradesh">Uttar Pradesh</option>
+              </select><br>
+            City:
+            <input type="text" placeholder="Enter City Name" name="city"><br>
+            Password:
+            <input type="password" name="password"><br>
+            Student:
+            <input type="checkbox" id="student" value="student">
+            Faculty members:
+            <input type="checkbox" id="fmember" value="fmember">
+            Professional: 
+            <input type="checkbox" id="professional" value="professional"><br><br>
+            Company Name:
+            <input type="text" placeholder="Enter Company Name" name="company"><br><br>
+            <input type="Submit" id="submit" value="Submit">
+        </fieldset>    
+        </form>
+    </body>
+</html>
